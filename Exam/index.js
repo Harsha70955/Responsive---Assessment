@@ -11,7 +11,7 @@ form.addEventListener("submit", function(e) {
     const password = document.getElementById("password").value;
 
     // Dummy login validation
-    if (username === "chandu" && password === "1234") {
+    if (username === "" && password === "") {
         errorText.classList.add("d-none");
         loginPage.classList.add("d-none");
         homePage.classList.add("active");
@@ -27,3 +27,4 @@ findBooksBtn.addEventListener("click", () => {
 
 
 });
+
